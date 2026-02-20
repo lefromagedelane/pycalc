@@ -8,16 +8,6 @@ def calculatrice():
         resultat = val1 + val2
         print("Résultat :", resultat)
 
-    if operateur == "-":
-        resultat = val1 - val2
-        print("Résultat :", resultat)
-
-    if operateur == "/":
-        resultat = val1 / val2
-        print("Résultat :", resultat)
-
-    if operateur == "*":
-        resultat = val1 * val2
-        print("Résultat :", resultat)
+    
 
 calculatrice()
