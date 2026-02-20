@@ -4,9 +4,8 @@ def calculatrice():
     operateur = input("Ecrire l'opérateur souhaité : ")
     val2 = int(input("Ecrire le deuxième nombre : "))
     
-    if operateur == "/":
-        resultat = val1 / val2
+    if operateur == "*":
+        resultat = val1 * val2
         print("Résultat :", resultat)
-
 
 calculatrice()
